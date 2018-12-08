@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Document</title>
+</head>
+<body style="margin: 0;">
+	
+	<script type="text/javascript" src="search.js"></script>
+
+	<form id="form1" onsubmit="return false;">
+    	<input style="position:absolute; top:10%; left:5%; width:15%;" type="text" id="userInput1" placeholder="Input an array" />
+    	<output style="position:absolute; top:20%; left:5%; width:15%;" type="text">Sorted array:</output>
+    	<input style="position:absolute; top:25%; left:5%; width:15%;" name="sorted" id="sorted" type="text" readonly="readonly">
+    	<input style="position:absolute; top:15%; left:5%; width:15.5%;" type="submit" onclick="submit_data();" />
+	</form>
+	
+	<form id="form2" onsubmit="return false;">
+    	<input style="position:absolute; top:30%; left:5%; width:15%;" type="text" id="userInput2" placeholder="Input a target to search for" />
+    	<input style="position:absolute; top:35%; left:5%; width:15.5%;" type="submit" onclick="submit_target();" />
+	</form>
+
+
+</body>
+</html>
